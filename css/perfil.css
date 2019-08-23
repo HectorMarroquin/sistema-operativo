@@ -1,0 +1,40 @@
+#tableperfil {
+	
+	
+		background: rgba(57, 110, 234 , 0.9);
+		width: 500px;
+		margin: 0px auto;
+		height: 30%;
+		border: 2px solid #8E44AD;
+		box-shadow: 1px 2px 8px 5px #B2BABB;
+		position: relative;
+		display: none;
+		border-radius: 8px;
+		
+}
+
+
+#yoo {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	display: block;
+	margin: auto;
+}
+
+
+#min {
+	position: relative;
+	left: 450px;
+}
+
+#tableperfil input[type="text"]{
+	
+	height: 25px;
+	font-size: 15px;
+}
+
+#enviarmodifica{
+
+	
+}

@@ -1,0 +1,259 @@
+#div102 {        /*Este es la fila de  archivo*/
+	position: absolute;
+	top: -20px;
+	left: 0px;
+	height: 10px;
+	padding-top: 3px;
+	width: 652px; 
+	margin: 0px auto;
+}
+
+#div103{  /*Este es la fila de  bold*/
+	position: absolute;
+	top: 8px;
+	left: 0px;
+	height: 10px;
+	padding-top: 3px;
+	width: 652px; 
+	margin: 0px auto;
+}
+
+#div104{ /*Este es un div que esta invisible en el area de escribir*/
+	position: absolute;
+	top: 55px;
+	left: 0px;
+	height: 380px;
+	padding-top: 3px;
+	width: 650px; 
+	margin: 0px auto;
+	background-color: white;
+}
+
+#div105{  /*Este es un div en gris donde file to search*/
+	position: absolute;
+	top: 57px;
+	left: 424px;
+	height: 377px;
+	width: 226px; 
+	margin: 0px auto;
+	border: 1px #000000 solid;
+	background-color: #EDECEB;
+}
+
+#txtHint{ /*Este el area de buscar*/
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	height: 323px;
+	width: 222px; 
+	margin: 0px auto;
+	border: 1px #000000 solid;
+	background-color: white;
+}
+/* Barra 1 la de archivo*/
+#barra1 #ul1 {
+		list-style: none; 
+		padding: 0px; 
+		display: block;
+		clear: right; 
+		background-color: #f3ecf8;
+		padding-left: 4px;
+		padding-top: 4px; 
+		height: 24px;
+		border-bottom: 1px solid #48484B;
+}
+
+#barra1 #ul1 .li {
+		display: inline; 
+		padding: 0px 10px 5px 10px;
+		height: 24px; 
+}
+
+#barra1 #ul1 .li a {
+		color: black; 
+		text-decoration: none;
+		font-size: 13px; 
+		font-weight: bold;
+}
+
+#barra1 #ul1 .li a:hover {
+	color: #fff;
+}
+
+#barra2 #ul2 {
+		list-style: none; 
+		padding: 0px; 
+		display: block;
+		clear: right; 
+		background-color: #EDECEB;
+	
+		padding-top: 4px; 
+		height: 24px;
+		border-bottom: 1px solid #48484B;
+}
+
+#barra2 #ul2 .li2 {
+		display: inline; 
+		padding: 0px 2px 5px 10px;  /*Aqui modifique 10 por 2px*/
+		height: 24px; 
+}
+
+#barra2 #ul2 .li2 a {
+		color: black; 
+		text-decoration: none;
+		font-size: 13px; 
+		font-weight: bold;
+}
+
+#barra2 #ul2 .l2 a:hover {
+	color: #fff;
+}
+
+#mnguuserimg2{
+	position: relative;
+	width: 30px;
+	height: 30px;
+	float: left;
+	top: -20px;
+}
+
+#mnguuserimg3{
+	position: relative;
+	width: 30px;
+	height: 30px;
+	float: left;
+	top: 0px;
+}
+
+#imgbuscarnotas{
+	position: relative;
+	top: 30px;
+	width: 50px;
+	height: 50px;
+}
+
+button{
+	border: none;
+}
+
+#buttonall{
+	border: none;
+	width: 150px;
+}
+
+.botonfuncion30 {
+    background-color: #EDECEB;
+    border: none;
+    cursor: pointer;
+    font-size: 13px; 
+	font-weight: bold;
+}
+
+.botonfuncion30:hover, .botonfuncion30:focus {
+    background-color: #99B9E3;
+}
+
+.desplegable30 {
+    position: relative;
+    display: inline-block;
+}
+
+.contenidomenu30 {
+    display: none;
+    position: absolute;
+    background-color: #EDECEB;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.contenidomenu30 button {
+    text-align: left;
+    white-space: nowrap;
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.show {display:block;}
+
+/* Tabla*/
+#cabecera1{
+	padding-right: 10px;
+	padding-left: 0px;
+}
+
+#cabecera2{
+	padding-right: 10px;
+	padding-left: 0px;
+}
+
+#cabecera3{
+	padding-right: 20px;
+	padding-left: 0px;
+}
+
+#cabecera4{
+	padding-right: 3px;
+	padding-left: 10px;
+}
+
+.datos{
+	padding-right: 6px;
+	padding-left: 0px;
+}
+
+.datos2{
+	padding-right: 20px;
+	padding-left: 0px;
+}
+
+.editnote{
+	width: 10px;
+	height: 10px;
+	background-color: white;
+}
+
+.deletenote{
+	width: 10px;
+	height: 10px;
+	background-color: white;
+}
+
+.open10{
+	background-color: white;
+}
+
+#btnyes{
+	background-color:white;
+	border-radius: 5px;
+}
+
+#btnno{
+	position: absolute;
+	top: 50px;
+	background-color:white;
+	border-radius: 5px;
+}
+
+#textBox {   /*Este es la parte donde escribimos nuestro texto del editor*/
+	width: 400px;
+    height: 356px;
+    border: 1px #000000 solid;
+    padding: 10px;
+    overflow:auto;
+}
+
+#enviar{
+	position: relative;
+	top: 0px;
+	right: 0px;
+}
+
+#nombre{
+	position: relative;
+	top: 320px;
+	left: 5px;
+	width: 210px;
+	height: 25px;
+}
+

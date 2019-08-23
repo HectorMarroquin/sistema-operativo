@@ -1,0 +1,58 @@
+#delete{
+	width: 100px;
+	height: 30px;
+	background: rgb(118, 16, 176 );
+	border: 1px solid  #ffffff ;
+	color: white;
+	text-decoration: none;
+	font-size: 10px;
+
+}
+
+#add{
+	width: 100px;
+	height: 30px;
+	background: rgb(118, 16, 176 );
+	border: 1px solid  #ffffff ;
+	color: white;
+	text-decoration: none;
+	font-size: 10px;
+
+}
+
+#delete:hover{
+	
+	background: rgb( 152, 20, 227);
+}
+#add:hover{
+	
+	background: rgb( 152, 20, 227);
+}
+
+#usu{
+
+	text-align: center;
+	border: 1px solid #000;
+	border-collapse: collapse;
+
+
+}
+
+#usu td{
+border: 1px solid black;
+height: 50px;
+width: 60px;
+background-color: #1265d5;
+
+
+}
+
+#usu th{
+
+background-color: blue;
+height: 40px;
+text-align: center;
+border: 1px solid black;
+}
+
+

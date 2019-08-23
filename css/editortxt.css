@@ -1,0 +1,165 @@
+#editordetexto{
+	display: none;
+}
+#div102 {        /*Este es la fila de  archivo*/
+	position: absolute;
+	top: 16px;
+	left: 200px;
+	height: 10px;
+	padding-top: 3px;
+	width: 650px; 
+	margin: 0px auto;
+}
+
+#div103{  /*Este es la fila de  bold*/
+	position: absolute;
+	top: 40px;
+	left: 200px;
+	height: 10px;
+	padding-top: 2px;
+	width: 650px; 
+	margin: 0px auto;
+}
+
+#div104{ /*Este es un div que esta invisible en el area de escribir*/
+	position: absolute;
+	top: 65px;
+	left: 200px;
+	height: 380px;
+	padding-top: 3px;
+	width: 650px; 
+	margin: 0px auto;
+	background-color: white;
+}
+
+#div105{  /*Este es un div en gris donde file to search*/
+	position: absolute;
+	top: 67px;
+	left: 624px;
+	height: 377px;
+	width: 226px; 
+	margin: 0px auto;
+	border: 1px #000000 solid;
+	background-color: white;
+}
+
+#txtHint{ /*Este el area de buscar*/
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	height: 323px;
+	width: 222px; 
+	margin: 0px auto;
+	border: 1px #000000 solid;
+	background-color: white;
+}
+
+
+#eliminararchivo{
+
+	position: relative;
+	top: 295px;
+	left: 0px;
+	height: 30px;
+	width: 223px; 
+	margin: 0px auto;
+	border: 1px #000000 solid;
+	background-color: white;
+}
+
+
+
+
+/* Barra 1 la de archivo*/
+#barra1 #ul1 {
+		list-style: none; 
+		padding: 0px; 
+		display: block;
+		clear: right; 
+		background-color: #f3ecf8;
+		padding-left: 4px;
+		padding-top: 4px; 
+		height: 24px;
+		border-bottom: 1px solid #48484B;
+}
+
+#barra1 #ul1 .li {
+		display: inline; 
+		padding: 0px 10px 5px 10px;
+		height: 24px; 
+}
+
+#barra1 #ul1 .li a {
+		color: black; 
+		text-decoration: none;
+		font-size: 13px; 
+		font-weight: bold;
+}
+
+#barra1 #ul1 .li a:hover {
+	color: #fff;
+}
+
+#barra2 #ul2 {
+		list-style: none; 
+		padding: 0px; 
+		display: block;
+		clear: right; 
+		background-color: #EDECEB;
+	
+		padding-top: 4px; 
+		height: 24px;
+		border-bottom: 1px solid #48484B;
+}
+
+#barra2 #ul2 .li2 {
+	    position: relative;
+		display: inline; 
+		padding: 0px 6px 5px 10px;  /*Aqui modifique 10 por 2px*/
+		height: 24px; 
+		bottom: 4px;
+
+}
+
+#barra2 #ul2 .li2 button {
+		color: black; 
+		text-decoration: none;
+		font-size: 10px; 
+		font-weight: bold;
+
+}
+
+#barra2 #ul2 .l2 button:hover {
+	color: blue;
+}
+
+
+
+.bot{
+	border: none;
+	width: 50px;
+	font-size: 10px;
+	margin-bottom: 30px;
+}
+
+
+#textBox {   /*Este es la parte donde escribimos nuestro texto del editor*/
+	width: 419px;
+    height: 375px;
+    border: 1px #000000 solid;
+    padding: 10px;
+    overflow:auto;
+}
+
+.inp{
+
+	font-size: 15px;
+	width: 225px;
+	height: 25px;
+}
+
+#select{
+	font-size: 15px;
+	width: 215px;
+	height: 30px;
+}

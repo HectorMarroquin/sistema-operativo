@@ -1,0 +1,122 @@
+*{
+	margin: 0;
+	padding: 0;		
+	-webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	
+}
+
+body{
+	
+	background: url(../img/desktop.jpg);  /*imagen de fondo*/
+	-webkit-background-size: cover; /*Estirar toda la imagen*/
+	background-size: cover;	
+	background-attachment: fixed;
+	font-family: 'Roboto', sans-serif;
+	
+}
+
+
+
+#barra {
+	background-color: aliceblue;
+	position: absolute; 
+	bottom: 0%; 
+	width: 100%;
+	height: 40px;
+	background-color: rgba(188, 93, 229, .4);
+	padding-top:  5px;
+}
+
+.icon {
+	width: 30px;
+	height: 30px;
+	margin-left: 5px;
+	position: relative;
+}
+
+.icon0 {
+	width: 30px;
+	height: 30px;
+	margin-left: 5px;
+	position: relative;
+	
+}
+
+.icon0:hover{
+	
+	background: rgba(255,255,255,.2);
+	padding: 3px;
+	
+}
+
+.icon:hover{
+	
+	background: rgba(255,255,255,.2);
+	padding: 3px;
+}
+
+
+
+.icon1 {
+	margin-left: 30%;
+	width: 30px;
+	height: 30px;
+	position: relative;
+}
+
+.buscar{
+	
+	background-color: white;
+	color: black;
+	width: 25%;
+	margin-left: 8px;
+	position: absolute;
+	height: 35px;
+	font-size: 20px;
+	
+}
+
+
+.icon2 {
+	
+	width: 20px;
+	height: 20px;
+	position: relative;
+	margin-left: 39%;
+	
+}
+
+.icon3 {
+	width: 20px;
+	height: 20px;
+	position: relative;
+	margin-left: 10px;
+}
+
+.icon4{
+	
+	width: 30px;
+	height: 30px;
+	position: relative;
+	margin-left: 115px;
+	
+}
+
+#calculadora {
+	display: none;
+	color: aliceblue;
+}
+
+#buscador{
+
+	margin: 0 auto;
+	width: 380px;
+	height: 592px;
+	text-align: center;
+	background: rgba(19, 21, 17,.8);
+	display: none;
+	position: absolute;
+	color: white;
+}

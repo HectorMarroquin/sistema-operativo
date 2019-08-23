@@ -1,0 +1,73 @@
+.nota {
+	
+	width: 198px;
+	height: 335px;
+	background: red;
+	overflow: auto;
+	border: 2px solid #F9F910;
+	position: relative;
+	float: left;
+}
+
+#encabezado {
+	width: 198px;
+	height: 32px;
+	background-color: black;
+	position: relative;
+	border: none;
+	
+}
+
+.basura {
+	position: relative;
+	left: 80px;
+	margin-bottom: 2px;
+}
+.paleta {
+	position: relative;
+	left: 30px;
+	margin-bottom: 2px;
+}
+
+.mas {
+	
+	margin-bottom: 2px;
+	padding: 4px;
+}
+
+.basura:hover,.mas:hover{
+	background-color: aquamarine;
+}
+
+
+
+.selectpicker{
+background: transparent;
+border: none;
+height: 25px;
+}
+
+#send{
+background-color: blue;
+border: none;
+margin-left: 20px;
+height: 25px;
+width: 60px;
+}
+
+.NombNota{
+
+	font-family: arial;
+	font-size: 12px;
+	background-color: #1849e1;
+	width: 194px;
+}
+
+#tarea{
+
+	width: 194px;
+	height: 199px;
+	border: none;
+	border: solid red;
+	background-color: red;
+}

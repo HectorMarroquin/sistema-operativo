@@ -1,0 +1,149 @@
+#agregarusuario{
+		background: rgb(118, 16, 176 );
+		width: 50%;
+		margin: 0px auto;
+		height: 550px;
+		border: 1px solid  #ffffff ;
+		position: relative;
+		color: white;
+		font-size: 12px;
+		display: none;
+		
+		
+}
+
+.tablex{
+  border-collapse: separate;
+  border-spacing: 30px 40px;
+}
+
+#agregarusuario input[type="text"]{
+	
+	height: 30px;
+	border: none;
+	font-size: 20px;
+
+}
+#agregarusuario input[type="password"]{
+	
+	height: 30px;
+	border: none;
+	font-size: 20px;
+
+}
+
+
+.lab{
+	
+	margin-left: 80px;
+	font-size: 22px;
+	
+}
+
+.flec{
+
+	height: 40px;
+	width: 40px;
+}
+
+p{
+		padding: 20px;
+}
+
+#buttons{
+	width: 100px;
+	height: 30px;
+	background: rgb(118, 16, 176 );
+	border: 1px solid  #ffffff ;
+	color: white;
+	text-decoration: none;
+	font-size: 15px;
+	margin-left: 10px;
+	
+}
+
+#buttons:hover{
+	
+	background: rgb( 152, 20, 227);
+}
+#buttonsC{
+	width: 100px;
+	height: 30px;
+	background: rgb(118, 16, 176 );
+	border: 1px solid  #ffffff ;
+	color: white;
+	text-decoration: none;
+	font-size: 15px;
+	margin-left: 10px;
+	
+}
+
+#buttonsC:hover{
+	
+	background: rgb( 152, 20, 227);
+}
+
+.but{
+
+	margin-left: 55%;
+}
+
+.but input[type="reset"]{
+	
+	width: 100px;
+	height: 30px;
+	background: rgb(118, 16, 176 );
+	border: 1px solid  #ffffff ;
+	color: white;
+	text-decoration: none;
+	font-size: 15px;
+	margin-left: 10px;
+
+}
+
+.but input[type="reset"]:hover{
+
+background: rgb( 152, 20, 227);
+}
+
+#enviarmodifica{
+	height: 30px;
+	width: 187px;
+	background: rgb( 12, 158, 226 );
+	border: none;
+}
+
+#enviarmodifica:hover{
+	
+background: rgb( 125, 44, 188);
+}
+
+#mod{
+
+	border-spacing: 15px;
+}
+
+#tableperfil input[type="reset"]{
+	
+	height: 30px;
+	width: 187px;
+	border: none;
+	background: rgb(118, 16, 176 );
+
+}
+
+#tableperfil input[type="reset"]:hover{
+
+background: rgb( 152, 20, 227);
+}
+
+
+#tableperfil input[type="text"]:hover{
+
+border: none;
+}
+
+#tableperfil input[type="text"]{
+height: 30px;
+width: 250px;
+}

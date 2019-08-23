@@ -1,0 +1,58 @@
+#adduser {
+		background: rgb( 42, 46, 44);
+		width: 250px;
+		margin: 0px auto;
+		height: 75px;
+		border: 1px solid  #ffffff ;
+		position: relative;
+		color: white;
+		font-size: 12px;
+		float: left;
+		top: 330px;
+		display: none;
+}
+
+#info:hover{
+	background: rgba(131, 23, 222,.7); 
+	
+}
+#info{
+	height: 30px;
+	padding: 10px;
+}
+
+#CerrarSesion:hover{
+	background: rgba(131, 23, 222,.7); 
+	
+}
+
+#CerrarSesion{
+	height: 30px;
+	padding: 10px;
+
+}
+
+#CrearUsuario:hover{
+	background: rgba(131, 23, 222,.7); 
+	
+}
+#CrearUsuario{
+	height: 30px;
+	padding: 10px;
+}
+
+#usuarioschange:hover{
+	background: rgba(131, 23, 222,.7); 
+	
+}
+#usuarioschange{
+	height: 30px;
+	padding: 10px;
+}
+
+
+tr,td{
+	
+	height: 10px;
+	width: 40px;
+}

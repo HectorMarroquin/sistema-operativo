@@ -1,0 +1,83 @@
+#calc{
+		
+		background: rgba(215, 219, 221, 0.9);
+		width: 24%;
+		margin: 0px auto;
+		display: none;
+		height: 500px;
+		border: 2px solid #8E44AD;
+		box-shadow: 1px 2px 8px 5px #B2BABB;
+		position: relative;
+}
+		
+#resultado{
+			
+	display: block;
+	font-size: 50px;
+	width: 100%;
+	height: 75px;
+	line-height: 100px;
+	background:  rgba(215, 219, 221, 0.0);
+	border: none;
+	text-align: right;
+	margin-top: 100px;
+	color: black;
+}
+
+table{
+	
+	width: 100%;
+}
+
+button{
+	
+   background: rgb(253, 254, 254);
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+	height: 90%;
+	width: 100%;
+	font-weight: bold;
+
+
+}
+
+button:hover{
+	background-color: #BFC9CA;
+}
+
+h1 {
+	text-align: center;
+}
+
+.tr,.td{
+	
+	height: 50px;
+	width: 80px;
+}
+
+th {
+	text-align: left;
+	
+}
+
+#x {
+	 background-image:url(../icon/cerrar.png);  
+	 background-repeat:no-repeat;
+	 background-position:center;
+}
+#x:hover{
+	
+	background-color: #F85A5A;
+}
+
+#botonimage {
+	background-image:url(../icon/back.png);  
+	background-repeat:no-repeat;
+	 background-position:center;
+	margin-top: 2px;
+}
+

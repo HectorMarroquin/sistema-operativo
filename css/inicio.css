@@ -1,0 +1,93 @@
+*{
+
+	margin: 0px;
+	padding: 0px;
+}
+body{
+
+	background: url(../img/ini.jpg);
+	-webkit-background-size: cover; /*Estirar toda la imagen*/
+	background-size: cover;	
+	background-attachment: fixed;
+	font-family: 'Roboto', sans-serif;
+	position: relative;
+}
+
+#name,#pin {
+	color: white;
+	
+}
+
+#datos {
+	
+	width: 50%;
+	margin: 100px auto;
+	text-align: center;
+	line-height: 50px;
+	
+	
+}
+#datos input[type="password"]{
+
+
+	font-size: 20px;
+	width: 42%;
+	/*background: rgba(0,0,0,.7); */
+	background-color: white;
+	height: 30px;
+	color: black;
+	border: none;
+}
+
+#imagen {
+	
+	border-radius: 50%;
+	width: 190px; height: 190px;
+}
+
+.avatar{
+
+	width: 40px; height: 40px;
+	border-radius: 50%;
+}
+
+.ava:hover{
+
+	background: rgba(131, 23, 222,.7); 
+}
+.ava{
+
+	font-size: 20px;
+}
+
+#usu{
+
+	top: 330px;
+	width: 25%;
+	position: absolute;
+	color: white;
+	
+}
+
+#name{
+
+	font-size: 35px;
+}
+
+#submit{
+
+	background-color: gray;
+	width: 80px;
+	height: 35px;
+	padding-top: 3px;
+	border: none;
+	color: white;
+	font-size: 15px;
+
+
+}
+
+#submit:hover{
+	
+	background-color: #565656;
+}

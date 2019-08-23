@@ -1,0 +1,100 @@
+#modal {
+	position: absolute;
+	background: url(../img/LA.jpg);
+	font-family: 'Roboto', sans-serif;
+	top: -100vp;
+	width: 100%;
+	height: 94vh;
+	display: none;
+}
+
+
+.barra2 {
+	background: rgba(12, 10, 66, .5);
+	width: 40px;
+	height: 100%;
+	position: absolute;
+	padding-left: 8px;
+}
+
+.images {
+	position: relative;
+	left: 70px;
+	margin: 5px;
+	
+}
+
+.calcu{
+	
+	position: relative;
+	left: 70px;
+	margin: 5px;
+}
+
+.blocs{
+	
+	position: relative;
+	left: 70px;
+	margin: 5px;
+}
+
+
+
+#apagar {
+	
+	position: absolute;
+	bottom: 0%;
+	width: 20px;
+	height: 20px;
+	margin-bottom: 10px;
+	
+}
+#settings{
+	
+	width: 20px;
+	height: 20px;
+	bottom: 8%;
+	position: absolute;
+}
+
+#windows{
+	
+	position: absolute;
+	bottom: 16%;
+	width: 20px;
+	height: 20px;
+}
+
+#apagar:hover, #settings:hover, #windows:hover{
+	
+	background: rgba(255, 255, 255, .5);
+}
+
+.images:hover{
+
+	border: 1px solid #ffffff;
+}
+.calcu:hover{
+
+	border: 1px solid #ffffff;
+}
+.blocs:hover{
+
+	border: 1px solid #ffffff;
+}
+
+#mensaje {
+	color: aliceblue;
+	font-family: arial;
+	padding-left: 58px;
+	margin: 20px;
+
+}
+
+#perfil {
+	position: absolute;
+	bottom: 22%;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+}
